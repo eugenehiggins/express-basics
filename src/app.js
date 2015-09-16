@@ -5,6 +5,8 @@ var express = require('express'),
 
 var app = express();
 
+debugger;
+
 app.get('/', function(req, res){
 	res.send("<h1>I am IN Love with Treehouse!</h1>");
 });
